@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="calculatortesting.Division">
+        <methods>
+          <include name="navigate"/>
+          <include name="intidriver"/>
+        </methods>
+      </class> <!-- calculatortesting.Division -->
+      <class name="calculatortesting.Substraction">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- calculatortesting.Substraction -->
+      <class name="calculatortesting.addition">
+        <methods>
+          <include name="navigate"/>
+          <include name="intidriver"/>
+        </methods>
+      </class> <!-- calculatortesting.addition -->
+      <class name="calculatortesting.multiplication">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- calculatortesting.multiplication -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
